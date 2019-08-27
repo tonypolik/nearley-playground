@@ -192,7 +192,7 @@ class Playground extends Component {
                     }}>Reset Examples?</div>
                     : null }
             </div>
-            <div className='playground-body' style='overflow-y: auto;'>
+            <div className='playground-body' style={{'overflow-y': 'auto'}}>
 
                 <Editor 
                     value={editor_value}
