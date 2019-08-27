@@ -81,7 +81,7 @@ export default class Editor extends Component {
             autoCloseBrackets: true,
             indentUnit: 4,
             keyMap: 'sublime',
-            indentWithTabs: true,
+            indentWithTabs: false,
             lineWrapping: true,
             theme: 'elegant',
             viewportMargin: Infinity,
