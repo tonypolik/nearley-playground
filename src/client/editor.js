@@ -156,7 +156,7 @@ export default class Editor extends Component {
 
     }
     render(){
-        return <div className='editor'>
+        return <div className='editor' style='overflow-y: auto;'>
             <div className='shadow'/>
             <div className='cm-wrap' ref='wrap'></div>
             {this.props.errors.length 
